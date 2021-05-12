@@ -164,19 +164,14 @@ footer{
     box-shadow: 2px 2px 4px 4px rgba(255, 0, 119, .8);
 
   }
-    .rec-div{
+    .rec-div, .ven-div{
     width: 70%;
     height: 400px;
-    margin-left: 70px;
+    margin: auto;
 
 
   }
-    .ven-div{
-    width: 70%;
-    height: 400px;
-    margin-left: 70px;
-
-  }
+  
   #reception ,#venue {
     box-shadow: 2px 2px 4px 4px rgba(255, 0, 119, .8);
   border-radius:30px;
