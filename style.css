@@ -1,0 +1,215 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Itim', cursive;
+  background-color: white;
+}
+.banner{
+  width: 87%;
+  height: 650px;  
+  background-image: url("cop4eed.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgb(31, 28, 28);
+  color: white;
+  height: 50px;
+  margin-top: 10px;
+  
+  border-radius: 20px 0;
+  
+}
+.nav p{
+  padding:0 10px;
+}
+.nav-links a{
+  
+  text-decoration: none;
+  color:white;
+  padding: 0 20px;
+  text-align: center;
+  transition: all .4s;
+  
+}
+.nav-links a:hover{
+  border-bottom: 2px solid rgba(255, 0, 119);
+}
+#home{
+  margin: 280px 0 0 40px;
+  
+}
+#home h2{
+  font-size: 70px;
+  margin-bottom: 10px;
+  color:white;
+  
+}
+span{
+  color: rgba(255, 0, 119, .8);
+  
+}
+#home button{
+  color:rgb(255, 0, 119);
+  outline: none;
+  padding:10px 20px;
+  border: 2px solid rgb(255, 0, 119);
+  border-radius: 0px 20px;
+  transition: all .3s;
+}
+#home button:hover{
+  color: white;
+  background-color: rgb(255, 0, 119);
+}
+#us{
+  width: 600px;
+  
+  background-image: url("pink2.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  height: 300px;
+  margin: 20px auto;
+  
+}
+.wrapper h2{
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+#us p{
+  color: black;
+  font-size: 16px;
+  font-style: italic;
+}
+
+
+.ven-div{
+  background-image: url("barwed.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width:600px;
+  margin:30px auto;
+}
+
+#venue h2, p{
+  text-align: center;
+}
+#venue p{
+  font-style: italic;
+  font-size: 15px;
+  margin:20px 0;
+
+}
+#venue h2{
+  font-size: 30px;
+  margin-top: 70px;
+}
+
+.rec-div{
+  background-image: url("rec3.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width:600px;
+  margin:30px auto;
+}
+
+
+
+#reception h2{
+  font-size: 30px;
+  margin-top: 70px;
+  text-align: center;
+
+}
+
+#reception p{
+  font-style: italic;
+  font-size:15px ;
+  margin: 20px;
+  text-align: center;
+
+}
+footer{
+  background-color: rgba(17, 17, 17, .9);
+  
+  color:white;
+  text-align: center;
+  font-style: italic;
+  font-size: 22px;
+  padding:30px 0;
+
+}
+
+
+
+
+/*media Screen*/
+
+@media all and (max-width:850px){
+  #us{
+    width: 70%;
+    height: 500px;
+    font-size: 15px;
+    box-shadow: 2px 2px 4px 4px rgba(255, 0, 119, .8);
+
+  }
+    .rec-div{
+    width: 70%;
+    height: 400px;
+    margin-left: 70px;
+
+
+  }
+    .ven-div{
+    width: 70%;
+    height: 400px;
+    margin-left: 70px;
+
+  }
+  #reception ,#venue {
+    box-shadow: 2px 2px 4px 4px rgba(255, 0, 119, .8);
+  border-radius:30px;
+  margin: 40px;
+  }
+  #reception h2, #venue h2 {
+    margin-top: 30px;
+  }
+
+
+    .banner{
+      width: 100%;
+      height: 650px;  
+      background-image: url("cop4.jpg");
+      background-position: center;
+      background-size: cover;
+      
+      
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
