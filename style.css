@@ -58,7 +58,7 @@ span{
   
 }
 #home button{
-  color:rgb(255, 0, 119);
+  color:white;
   outline: none;
   padding:10px 20px;
   border: 2px solid rgb(255, 0, 119);
@@ -167,7 +167,7 @@ footer{
     .rec-div, .ven-div{
     width: 70%;
     height: 400px;
-    margin: auto;
+    margin-right: 30px;
   }
   
   #reception ,#venue {
